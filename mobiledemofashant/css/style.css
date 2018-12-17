@@ -1,0 +1,151 @@
+.tz-register {
+    background: url(../images/faces.jpg) #e6e6e6;
+    position: relative;
+}
+.log-in-pop {
+    position: relative;
+    background: #fff;
+    margin: 0 auto;
+    width: 100%;
+}
+.log-in-pop-right {
+    width: 100%;
+    /*padding: 10px;*/
+}
+.dir-pop-body form {
+    background: #fff;
+    /*padding: 30px 50px 25px 50px;*/
+    border-radius: 5px;
+    /*box-shadow: 0px 2px 34px rgba(80, 80, 80, 0.3);*/
+    position: relative;
+    overflow: hidden;
+}
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+}
+.log-in-pop-right form input {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 45px;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #636363;
+}
+.log-in-pop-right form label {
+    font-size: 14px !important;
+    font-weight: 200;
+    left: 15px;
+    top: 14px;
+}
+.input-field label:not(.label-icon).active {
+    font-size: 0.8rem;
+    -webkit-transform: translateY(-140%);
+    transform: translateY(-140%);
+    opacity: 0;
+}
+.log-in-btn {
+    background: #f4364f;
+    color: #fff;
+    padding: 2px 10px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.log-in-pop-right form input[type="submit"] {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.contentbg {
+    background: #f4364f;
+    padding: 20px 30px;
+    color: #fff;
+}
+.customform {
+    padding: 20px;
+}
+.rating > label.full:before {
+    margin: 5px;
+    font-size: 22px;
+    font-family: FontAwesome;
+    display: inline-block;
+    content: "\f005";
+    border: 0px !important;
+}
+fieldset.rating {
+    float: left;
+}
+.list-pg-write-rev form label {
+    top: 14px;
+}
+.rating > label {
+    color: #ddd;
+    float: right;
+}
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+.rating > label:after {
+    background: none !important;
+    border: 0px !important;
+}
+.rating > input:checked ~ label, .rating:not(:checked) > label:hover, .rating:not(:checked) > label:hover ~ label {
+    color: #14addb;
+}
+[type="radio"]:not(:checked) + label:after {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"] + label:before, [type="radio"] + label:after {
+    /*content: '';*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 4px;
+    width: 16px;
+    height: 16px;
+    z-index: 0;
+    transition: .28s ease;
+}
+[type="radio"]:not(:checked) + label.full, [type="radio"]:checked + label.full {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    transition: .28s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.log-in-pop-right form textarea {
+    border: 1px solid #dfdfdf;
+    padding: 8px;
+    box-sizing: border-box;
+    height: 45px;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #636363;
+}
+.input-field select, textarea {
+    border: 0;
+    border-bottom: 1px solid #868686;
+    padding: 8px 0;
+    width: 100%;
+    font-family: 'GothamBook';
+    background: transparent;
+}
+
+
+
+
+
+

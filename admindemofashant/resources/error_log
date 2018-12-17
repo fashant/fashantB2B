@@ -1,0 +1,7 @@
+[14-Dec-2018 00:49:19 UTC] PHP Notice:  Undefined index: id in /home3/fashantt/public_html/admindemofashant/resources/updateInnerContents.php on line 51
+[14-Dec-2018 00:49:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on boolean in /home3/fashantt/public_html/admindemofashant/resources/utilities.php:717
+Stack trace:
+#0 /home3/fashantt/public_html/admindemofashant/resources/updateInnerContents.php(51): getAllBrands(NULL)
+#1 /home3/fashantt/public_html/admindemofashant/resources/updateInnerContents.php(22): getAdminAllListing()
+#2 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/resources/utilities.php on line 717

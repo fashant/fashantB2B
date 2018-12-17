@@ -1,0 +1,1034 @@
+@font-face {
+    font-family: 'VAGRoundedBT';
+    src: url('../fonts/vagrounded-bt/VAGRoundedBT.eot');
+    src: url('../fonts/vagrounded-bt/VAGRoundedBT.eot') format('embedded-opentype'),
+         url('../fonts/vagrounded-bt/VAGRoundedBT.woff2') format('woff2'),
+         url('../fonts/vagrounded-bt/VAGRoundedBT.woff') format('woff'),
+         url('../fonts/vagrounded-bt/VAGRoundedBT.ttf') format('truetype'),
+         url('../fonts/vagrounded-bt/VAGRoundedBT.svg#VAGRoundedBT') format('svg');
+}
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../fonts/GothamBook/GothamBook.eot');
+    src: url('../fonts/GothamBook/GothamBook.eot') format('embedded-opentype'),
+         url('../fonts/GothamBook/GothamBook.woff2') format('woff2'),
+         url('../fonts/GothamBook/GothamBook.woff') format('woff'),
+         url('../fonts/GothamBook/GothamBook.ttf') format('truetype'),
+         url('../fonts/GothamBook/GothamBook.svg#GothamBook') format('svg');
+}
+::placeholder {
+    color: #333232;
+}
+body{
+	font-family: 'GothamBook';
+}
+.custom-menu {
+    background: transparent !important;
+	top:15px;
+	position:absolute;
+}
+.custom-menu button.navbar-toggler {
+    border: 0;
+}
+.custom-menu button.navbar-toggler span {
+	background-image:url('../img/menu-toggle.png');
+    background-size: contain;
+}
+section.header {
+	background: url('../img/header-bg.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+	height:auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+	padding-bottom:50px;
+}
+.header-content img {
+    width: 130px;
+}
+.heading {
+    font-family: 'VAGRoundedBT';
+    color: #fff;
+}
+.heading label {
+    font-size: 36px;
+    margin: 26px 0 0 0;
+    line-height: 30px;
+}
+.heading h1 {
+    font-size: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+    margin: 8px 0 10px 0;
+}
+.heading p {
+    font-size: 20px;
+}
+.form form {
+    width: 88%;
+    background: #fff;
+    margin: 0 auto;
+    display: block;
+}
+.input-field select, input {
+    border: 0;
+	border-bottom:1px solid #868686;
+	padding:8px 0;
+    width: 100%;
+	font-family: 'GothamBook';	
+    background: transparent;	
+}
+.form form .input-field {
+    width: 100%;
+    padding: 15px 15px 0px 15px;
+}
+.form form .input-field:last-child{
+	padding:25px 0 0px 0;
+}
+.form form .input-field:last-child input {
+    padding: 15px 0;
+    background: #02548d;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+    border: 0;	
+}
+section.box-select {
+    background-image: url(../img/selection-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section.box-select .carousel-inner{
+	overflow:initial;
+}
+section.box-select .carousel-inner.carousel-caption {
+    top: 70px;
+}
+.carousel-captions {
+    max-width: 74%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 280px;
+}
+.icon-img {
+    display: inline-block;
+    margin-right: 20px;
+}
+.select-text {
+    display: inline-block;
+    color: #fff;
+    font-family: 'GothamBook';		
+}
+.select-text h3 {
+    font-size: 36px;
+}
+.button-link {
+    background: #02548d;
+    text-align: center;
+    padding: 8px 0px;
+    color: #fff;
+}
+.button-link a {
+    color: #fff;
+    font-family: 'GothamBook';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: 3px;
+}
+.carousel-control-next-icon{
+	background-image:url(../img/right-arrow.png);
+	background-repeat:no-repeat;
+    width: 9px;
+    height: 20px;	
+}
+.carousel-control-prev-icon{
+	background-image:url(../img/left-arrow.png);
+	background-repeat:no-repeat;
+    width: 9px;
+    height: 20px;	
+}
+.fashion-content {
+    padding: 20px 0;
+	font-family: 'VAGRoundedBT';
+	text-align:center;
+}
+.fashion-content label {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.fashion-content span {
+    display: block;
+    font-size: 32px;
+    text-transform: capitalize;
+    line-height: 21px;
+    margin-bottom: 8px;	
+}
+.categories-list ul li a img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 64px;
+}
+.categories-list ul li a {
+    background: #f4f4f4;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    padding: 17px 10px;
+    border-radius: 2px;
+    color: #403f3f;
+    font-size: 14px;
+    font-family: 'GothamBook';
+}
+.categories-list ul li {
+    width: 47%;
+    display: inline-block;
+}
+.categories-list ul {
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+section.location-slider .fashion-content {
+    background: #02548d;
+    color: #fff;
+}
+section.location-slider {
+    margin-top: 40px;
+}
+.no-padding{
+	padding:0;
+}
+.location-place img {
+    width: 100%;
+}
+.banner-1 {
+    background: url(../img/graphics-banner.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.banner-content {
+    font-family: 'VAGRoundedBT';
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.banner-content h3 {
+    font-size: 48px;
+    line-height: 29px;
+}
+.banner-content p {
+    font-size: 30px;
+    line-height: 33px;
+}
+.banner-content h2 {
+    font-size: 55px;
+    line-height: 30px;
+}
+a.fashant-btn {
+    padding: 8px 10px;
+    background: #02548d;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    font-weight: 600;
+    border: 0;
+    font-family: 'GothamBook';
+    display: block;
+    width: 162px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+section.location-slider .carousel-captions {
+    max-width: 100%;
+}
+.heading-title {
+    background: #090909;
+    text-align: center;
+    padding: 8px 0;
+}
+.heading-title label {
+    font-size: 20px;
+    font-family: 'GothamBook';
+    color: #b8b8b8;
+    font-weight: bold;
+    margin: 0;
+	margin-left:60px;
+}
+.ul-brand {
+    position: relative;
+    display: block;
+    width: 83%;
+    height: 185px;
+	margin:0 auto;
+}
+.humen-image {
+    position: absolute;
+    top: -40px;
+    left: -6px;
+}
+.ul-brand ul {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 10px 0px 10px 17px;
+    float: right;
+}
+.ul-brand ul li {
+    margin-bottom: 6px;
+}
+.humen-image img {
+    width: auto;
+}
+ul{
+	list-style-type:none;
+}
+a {
+    color: #000;
+}
+.ul-brand ul li a {
+    font-size: 14px;
+    font-family: 'GothamBook';
+}
+.brands-list a span.carousel-control-prev-icon {
+    background-image: url(../img/left-arrow-black.png);
+}
+.brands-list a span.carousel-control-next-icon {
+    background-image: url(../img/right-arrow-black.png);
+}
+.brands-list a.carousel-control-next {
+    width:7%;
+}
+.brands-list a.carousel-control-prev {
+	width:7%;
+}
+.brands-list .carousel-item {
+    background: #c9c9c9;
+}
+.carousel-item.women-div.active .humen-image {
+    left: -40px;
+}
+section.newsletter {
+    margin: 25px 0;
+}
+.newsletter-content {
+    text-align: center;
+    padding: 10px 0;
+}
+.newsletter-content span {
+    font-size: 18px;
+    color: #02548d;
+    font-family: 'VAGRoundedBT';
+}
+.newsletter-form {
+    padding: 0px 20px;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+}
+.newsletter-form form .input-field:first-child input {
+    background: #efefef;
+    padding-left: 14px;
+    color: white;
+    font-size: 14px;
+    border: 1px solid #8e8e93;
+}	
+.newsletter-form form .input-field:first-child {
+    width: 60%;
+    display: inline-block;
+}
+.newsletter-form form .input-field:last-child {
+    width: 38%;
+    display: inline-block;
+    margin: 0 0 0 -7px;	
+}
+.newsletter-form form .input-field:first-child input {
+    background: #efefef;
+    padding-left: 14px;
+    font-size: 14px;
+    border: 1px solid #8e8e93;
+}
+.newsletter-form form .input-field:last-child input {
+    background: #02548d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+    padding-left: 15px;
+    padding-right: 15px;
+	padding-top: 7px;
+    padding-bottom: 7px;
+}
+hr.fashant-hr {
+    border-top: 1px solid #c7c7c5;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.social-icon ul {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.social-icon ul li {
+    display: inline-block;
+}
+section.footer label {
+    font-size: 14px;
+    width: 100%;
+    margin: 16px 0 0px 0;
+    font-family: 'GothamBook';	
+}
+section.footer {
+    text-align: center;
+}
+section.footer span {
+    font-size: 18px;
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-family: 'GothamBook';
+    font-weight: 600;
+    display: block;
+}
+hr.fashant-hr-last {
+    border-top: 1px solid #c7c7c5;
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+section.footer h5 {
+    color: #878686;
+    font-size: 12px;
+    font-family: 'GothamBook';
+    margin-bottom: 30px;
+}
+
+/*-- category section --*/
+section.search-filter {
+    background: url(../img/category-bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 133px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 50px;
+}
+.filter-content .input-field {
+    display: inline-block;
+    width: 53.8%;
+    vertical-align: middle;
+}
+.back-btn {
+    display: inline-block;
+	margin-right: 13px;	
+}
+.filter-content .input-field input {
+    background: #fff;
+    padding: 8px 10px;
+    font-size: 14px;	
+}
+.filter-content .input-field.fix {
+    width: 27%;
+}
+.input-field.search-img {
+    position: relative;
+}
+.input-field.search-img:after {
+    content: '';
+    display: block;
+    background: url(../img/search-icon.png);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 7px;
+    top: 6px;
+}
+.filter-type p {
+    display: inline-block;
+    color: #7d3737;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: 'GothamBook';
+    vertical-align: text-top;
+}
+.filter-type img {
+    display: inline-block;
+}
+.filter-type {
+    display: inline-block;
+    margin-right: 30px;
+    padding:18px 0px 20px 0px;
+}
+.result-content {
+    margin: 20px 0 30px 0px;
+}
+.result-content label {
+    font-size: 14px;
+    color: #333232;
+}
+.result-list ul li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 45%;
+    background: #f4f4f4;
+    padding: 0px 15px 10px 15px;
+    text-align: left;
+    margin-bottom: 14px;
+    height: 343px;
+    vertical-align: top;
+    position: relative;
+}
+#pagination_list ul li{
+    display: inline !important;
+    padding: 0 !important;
+}
+#pagination_list ul {
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.result-list ul li:nth-child(2n) {
+    margin-right: 0;
+}
+.result-list ul{
+	padding:0
+}
+.result-list ul li img {
+    width: 100%;
+}
+.result-list ul {
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-brand p {
+    color: #848484;
+    font-size: 14px;
+    line-height: 17px;
+}
+.about-brand h2 {
+    font-size: 18px;
+    color: #000000;
+	margin-bottom: 5px;
+    margin-top: 6px;
+}
+.about-brand label {
+    color: #5a5a5a;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+}
+.result-list ul li a.fashant-btn {
+    font-size: 10px;
+    letter-spacing: normal;
+    width: 100%;
+    margin-top: 0;
+}
+@media screen and (min-width: 359px) and (max-width: 767px) {
+	.ul-brand ul {
+		display: inline-block;
+		vertical-align: top;
+		margin: 0;
+		padding: 10px 10px 10px 17px;
+		float: right;
+	}
+	.result-list ul li a.fashant-btn {
+		font-size: 12px;
+		letter-spacing: normal;
+		width: 100%;
+		margin-top: 0;
+	}
+}
+section.newsletter.cate-news {
+    background-image: url(../img/cate-news.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 49px 0;
+}
+.btn-div {
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    padding: 0 15px;
+}
+section.newsletter.cate-news .newsletter-content span {
+    color: #fff;
+}
+
+/*-- category-details css --*/
+body.category-details .custom-menu {
+    padding: 16px 3px;
+}
+body.category-details section.search-filter {
+    height: 89px;
+}
+body.category-details section.search-filter .filter-content .input-field.search-img {
+    float: right;
+    width: 85%;
+}
+.banner-cate img {
+    width: 100%;
+}
+section.Shop-details {
+    background: #5255e2;
+}
+section.Shop-details .fashion-content label {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 22px;
+    letter-spacing: normal;
+	margin-bottom: 0;
+}
+.star-rate {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.star-rate img {
+    width: auto;
+}
+section.Shop-details .fashion-content {
+    padding: 17px 0 0 0;
+}
+.tree-btn button {
+    display: inline-block;
+    width: 80px;
+    padding: 0;
+    margin: 10px 10px 10px 0;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+    color: #FFF;
+    border-radius: 5px;
+    transition: all 0.2s;
+    background: #48cfad;
+    border: 0;
+    font-size: 14px;
+}
+.btnBlueGreen.btnPush {
+    box-shadow: 0px 5px 0px 0px #34bb9a;
+}
+.tree-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 13px;
+}
+.tree-btn button:last-child {
+    margin-right: 0;
+}
+ul {
+    padding: 0;
+}
+.shop-info-list ul li label {
+    color: #7fd0d8;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.shop-info-list ul li p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+.shop-info-list {
+    margin-top: 25px;
+    padding: 0px 10px 22px 10px;
+}
+.shop-info-list ul li {
+    border-bottom: 1px solid #686bf9;
+    padding-top: 11px;
+}
+.shop-info-list ul li:last-child {
+    border: 0;
+}
+.brand-text h3 {
+    color: #403f3f;
+    font-family: 'VAGRoundedBT';
+    font-size: 24px;
+    margin-bottom: 9px;
+}
+section.about-brand-single {
+    padding: 40px 0 26px 0;
+}
+section.about-brand-single hr.fashant-hr {
+    width: 100%;
+    margin: 30px 0 30px 0;
+}
+section.location-slider.brand-cloths-slider {
+    margin: 0;
+}
+section.location-slider.brand-cloths-slider .carousel-captions {
+    height: auto;
+}
+section.review-section {
+    margin: 40px 0 40px 0;
+}
+.brand-text label span {
+    color: #313131;
+}
+.brand-text label {
+    font-size: 34px;
+    color: #5f5f5f;
+    line-height: 43px;
+    margin-top: 5px;
+}
+section.review-section hr.fashant-hr {
+    width: 100%;
+    margin: 20px 0 30px 0;
+}
+section.review-section .progress .progress-bar {
+    background-color: #46cdab;
+}
+.fas-progress-bar p {
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+.fas-progress-bar .progress {
+    background-color: #cccfd5;
+    height: 7px;
+    border-radius: 2px;
+}
+.fas-progress-bar {
+    margin-bottom: 7px;
+}
+section.review-section .col-xs-7 {
+    width: 55%;
+    display: inline-block;
+    border-right: 1px solid #d3d3d3;
+    padding-right: 24px;
+	margin-top: 10px;
+    vertical-align: middle;	
+}
+section.review-section .col-xs-5 {
+    width: 43%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.rating-star {
+    text-align: center;
+}
+.rating-star span {
+    font-family: 'GothamBook';
+    color: #46cdab;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: normal;
+	position:relative;
+}
+.rating-star p {
+    margin-bottom: 0;
+    color: #5f5f5f;
+    font-size: 14px;
+    line-height: 18px;
+}
+.rating-star span:after {
+    content: '';
+    background-image: url(../img/star-rate.png);
+    z-index: 1;
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+    vertical-align: text-top;
+    position: absolute;
+}
+hr.fashant-hr.inner-hr {
+    margin: 0 auto;
+    margin-top: 23px;
+    margin-bottom: 10px;
+}
+section.location-slider.brand-cloths-slider span.carousel-control-prev-icon {
+    background-image: url(../img/left-arrow-1.png);
+	width: 33px;
+    height: 24px;
+}
+section.location-slider.brand-cloths-slider span.carousel-control-next-icon {
+    background-image: url(../img/right-arrow-1.png);
+	width: 33px;
+    height: 24px;
+}
+.sort-btn {
+    display: inline-block;
+    color: #fff;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: 'GothamBook';
+    vertical-align: text-top;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.radio,
+.checkbox {
+  padding-left: 20px;
+  position: relative;
+  display: block;
+}
+.radio input,
+.checkbox input {
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+  margin-left: -20px;
+}
+.radio input:checked + label::before,
+.checkbox input:checked + label::before {
+  border-color: #20c993;
+}
+.radio input:checked + label::after,
+.checkbox input:checked + label::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  left: 2px;
+  top: 4px;
+  margin-left: -20px;
+  border: 1px solid #20c993;
+  border-radius: 50%;
+  background-color: #20c993;
+}
+.radio label,
+.checkbox label {
+  display: inline-block;
+  position: relative;
+  padding-left: 5px;
+}
+.radio label::before,
+.checkbox label::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 0;
+  top: 2px;
+  margin-left: -20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.radio.disabled label,
+.checkbox.disabled label {
+  color: #ccc;
+}
+.radio.disabled label::before,
+.checkbox.disabled label::before {
+  opacity: 0.54;
+  border-color: #ccc;
+}
+.checkbox input:checked + label::before {
+  border-color: #20c993;
+  background-color: #20c993;
+}
+.checkbox input:checked + label::after {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 13px;
+  color: #fff;
+  top: 0;
+  left: 1px;
+  border-color: transparent;
+  background-color: transparent;
+}
+.checkbox label::before {
+  border-radius: 2px;
+}
+h4.modal-title {
+    color: #403f3f;
+    font-family: 'VAGRoundedBT';
+    font-size: 24px;
+    margin-bottom: 0;
+    display: inline-block;
+}
+.modal-header {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0 15px 0;
+}
+.radio label, .checkbox label {
+    color: #403f3f;
+    font-family: 'VAGRoundedBT';
+    font-size: 16px;
+    line-height: 19px;
+	padding-left: 10px;
+}
+.modal-dialog {
+    margin: 0;
+    max-width: 100%;	
+}
+.modal-content {
+    border: 0px solid rgba(0,0,0,.2);
+    border-radius: 0;
+	height: 100%;	
+}
+.modal.fade .modal-dialog {
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+    transition: transform .3s ease-out,-webkit-transform .3s ease-out;
+    -webkit-transform: translate(0,0%);
+    transform: translate(0,0%);
+	height: 100%;
+}
+.modal {
+    position: fixed;
+    top: auto;
+}	
+div#myModall {
+    top: 0;
+    height: 100%;
+}
+div#myModall .modal-header {
+    background: url(../img/category-bg.jpg) no-repeat;
+    background-size: cover;
+    border: 0;
+    height: 78px;
+    width: 100%;
+    padding: 23px 15px;
+}
+div#myModall h2.modal-title {
+    display: inline-block;
+    color: #fff;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: 'GothamBook';
+    vertical-align: baseline;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin-bottom: 0;
+	width: 69%;
+    text-align: center;
+}
+div#myModall .modal-header span {
+    color: #fff;
+}
+div#myModall .modal-header button {
+    padding: 0;
+    float: none;
+    display: inline-block;
+}
+.panel-heading .accordion-toggle:after {
+    content: '';
+    background-image: url(../img/right-arrow-gray-1.png);
+    z-index: 1;
+    width: 20px;
+    height: 12px;
+    display: inline-block;
+    float: right;
+    background-repeat: no-repeat;
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    background-image: url(../img/right-arrow-gray.png);
+    width: 12px;
+    height: 20px;
+}
+.panel-title .filter-type a:focus, a:hover {
+    color: #272727;
+    text-decoration: none;
+}
+a.sort-btn:hover, a.sort-btn:focus {
+    color: #fff;
+	text-decoration:none;
+}
+button.sort-btn:focus {
+    outline: none;
+}
+h4.panel-title {
+    color: #403f3f;
+    font-family: 'VAGRoundedBT';
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.panel.panel-default {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 15px 0;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0px solid #ddd;
+    padding: 10px 0;
+}
+.radio label, .checkbox label p {
+    margin: 0;
+}
+.last-filter-result a.fashant-btn {
+    float: right;
+    width: 110px;
+    margin: 0;
+}
+.last-filter-result h3 {
+    font-size: 24px;
+    color: #403f3f;
+    margin: 0;
+    line-height: 38px;
+}
+.panel-group {
+    margin-bottom: 40px;
+}
+.modal-body {
+    position: relative;
+    padding: 15px 15px 15px 15px;
+}
+.last-filter-result {
+    background: #f6f6f6;
+    padding: 20px 15px;
+}
+.last-filter-result {
+    background: #f6f6f6;
+    padding: 20px 15px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

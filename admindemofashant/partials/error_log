@@ -1,0 +1,88 @@
+[13-Dec-2018 19:26:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ad98ce91_dev'@'localhost' (using password: YES) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 20
+[13-Dec-2018 19:27:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ad98ce91_dev'@'localhost' (using password: YES) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 20
+[13-Dec-2018 19:27:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ad98ce91_dev'@'localhost' (using password: YES) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 20
+[13-Dec-2018 19:27:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ad98ce91_dev'@'localhost' (using password: YES) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 20
+[13-Dec-2018 19:27:49 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ad98ce91_dev'@'localhost' (using password: YES) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 20
+[13-Dec-2018 19:29:54 UTC] PHP Parse error:  syntax error, unexpected '$ds' (T_VARIABLE) in /home3/fashantt/public_html/admindemofashant/resources/utilities.php on line 1
+[13-Dec-2018 19:41:12 UTC] PHP Parse error:  syntax error, unexpected 'PHPMailer' (T_STRING) in /home3/fashantt/public_html/admindemofashant/resources/utilities.php on line 9
+[13-Dec-2018 19:41:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:41:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:41:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:42:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:44:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:47:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:47:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:47:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpini_set() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:49:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phperror_reporting() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:50:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phperror_reporting() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:51:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:51:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:54:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:57:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:57:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:57:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:57:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:57:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 19:59:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function phpsession_start() in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/fashantt/public_html/admindemofashant/partials/parseLogin.php on line 1
+[13-Dec-2018 20:00:24 UTC] PHP Parse error:  syntax error, unexpected 'all' (T_STRING) in /home3/fashantt/public_html/admindemofashant/resources/utilities.php on line 880
+[13-Dec-2018 20:01:17 UTC] PHP Parse error:  syntax error, unexpected '$db_host' (T_VARIABLE) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 1
+[13-Dec-2018 20:01:56 UTC] PHP Parse error:  syntax error, unexpected '$db_host' (T_VARIABLE) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 1
+[13-Dec-2018 20:03:40 UTC] PHP Parse error:  syntax error, unexpected '$db_host' (T_VARIABLE) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 1
+[13-Dec-2018 20:03:43 UTC] PHP Parse error:  syntax error, unexpected '$db_host' (T_VARIABLE) in /home3/fashantt/public_html/admindemofashant/resources/DBConnect.php on line 1
